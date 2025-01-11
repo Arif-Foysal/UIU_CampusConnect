@@ -19,5 +19,9 @@ public class User {
         return this.username;
     }
 
+    public String getEmail() {
+        return this.email;
+    }
+
     // Getters and Setters
 }

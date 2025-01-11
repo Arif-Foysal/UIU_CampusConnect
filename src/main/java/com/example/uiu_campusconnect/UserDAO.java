@@ -10,7 +10,7 @@ public class UserDAO {
         String query = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
         try (Connection conn = DatabaseUtil.getConnection(); PreparedStatement stmt = conn.prepareStatement(query)) {
             stmt.setString(1, user.getUsername());
-//            stmt.setString(2, user.getEmail());
+            stmt.setString(2, user.getEmail());
             stmt.setString(3, user.getPassword());
             return stmt.executeUpdate() > 0;
         }
