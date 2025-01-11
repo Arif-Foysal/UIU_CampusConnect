@@ -1,0 +1,76 @@
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+    -fx-background-radius: 8;
+    -fx-padding: 40;
+    -fx-max-width: 400;
+    -fx-pref-width: 400;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.input-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: normal;
+}
+
+.input-field {
+    -fx-pref-height: 40px;
+    -fx-background-color: white;
+    -fx-border-color: #E5E5E5;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-size: 14px;
+    -fx-padding: 0 10 0 10;
+}
+
+.input-field:focused {
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+}
+
+.action-button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 0 12 0;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-pref-width: 320;
+    -fx-min-height: 40;
+}
+
+.action-button:hover {
+    -fx-background-color: #333333;
+}
+
+.link {
+    -fx-text-fill: #0066CC;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-font-weight: normal;
+}
+
+.link:hover {
+    -fx-underline: true;
+}
+
+HBox {
+    -fx-padding: 10 0 0 0;
+}
+
+Label {
+    -fx-text-fill: #000000;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxWidth="450.0" prefHeight="488.0" prefWidth="450.0" spacing="15" styleClass="card" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="40" left="40" right="40" top="40" />
+    </padding>
+    <Label fx:id="lbl_1" text="UIU Campus Connect" textFill="#e38b07">
+        <font>
+            <Font name="Menlo Bold" size="31.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="lbl_2" prefHeight="55.0" prefWidth="85.0" styleClass="title" text="Log In">
+        <font>
+            <Font name="Menlo Bold" size="20.0" />
+        </font></Label>
+
+    <VBox spacing="5">
+        <Label styleClass="input-label" text="Email or Username" textAlignment="CENTER">
+            <font>
+                <Font name="Menlo Bold" size="14.0" />
+            </font></Label>
+        <TextField fx:id="emailOrUsernameField" prefHeight="33.0" prefWidth="370.0" styleClass="input-field" />
+    </VBox>
+
+    <VBox spacing="5">
+        <Label styleClass="input-label" text="Password">
+            <font>
+                <Font name="Menlo Bold" size="14.0" />
+            </font></Label>
+        <PasswordField fx:id="passwordField" prefHeight="32.0" prefWidth="370.0" styleClass="input-field" />
+    </VBox>
+
+    <Button prefHeight="42.0" prefWidth="104.0" styleClass="action-button" text="Log In">
+        <font>
+            <Font name="Menlo Bold" size="20.0" />
+        </font></Button>
+
+    <HBox alignment="CENTER" spacing="5">
+        <Label fx:id="lbl_3" text="Don't have an account?">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font></Label>
+        <Hyperlink styleClass="link" text="Sign up">
+            <font>
+                <Font name="Comic Sans MS" size="13.0" />
+            </font></Hyperlink>
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="5">
+        <Label text="Forgot your password?">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font></Label>
+        <Hyperlink styleClass="link" text="Reset password">
+            <font>
+                <Font name="Comic Sans MS" size="13.0" />
+            </font></Hyperlink>
+    </HBox>
+</VBox>
