@@ -14,13 +14,16 @@
     <padding>
         <Insets bottom="40" left="40" right="40" top="40" />
     </padding>
-   <Label fx:id="lbl_1" text="UIU Campus Navigation" textFill="#e38b07">
+   <Label fx:id="lbl_1" text="UIU Campus Connect" textFill="#e38b07">
       <font>
-         <Font name="Comic Sans MS Bold" size="18.0" />
+         <Font name="Menlo Bold" size="23.0" />
       </font>
    </Label>
 
-    <Label fx:id="lbl_2" styleClass="title" text="Sign Up" />
+    <Label fx:id="lbl_2" styleClass="title" text="Sign Up">
+      <font>
+         <Font size="11.0" />
+      </font></Label>
 
     <VBox spacing="5">
         <Label styleClass="input-label" text="Username" />
