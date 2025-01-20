@@ -26,7 +26,7 @@
 
 ##### 1. MySQL Connector
 You can follow this youtube video to install MySQL Connector.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8aTpDfsYTNQ?si=zM0o0_rSLDyRtYjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[https://www.youtube.com/watch?v=8aTpDfsYTNQ]
 
 - Download the MySQL Connector for Java from the [official MySQL website]([https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)).
 
