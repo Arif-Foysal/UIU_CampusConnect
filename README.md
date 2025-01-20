@@ -28,7 +28,7 @@
 You can follow this youtube video to install MySQL Connector.
 [https://www.youtube.com/watch?v=8aTpDfsYTNQ]
 
-- Download the MySQL Connector for Java from the [official MySQL website]([https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)).
+- Download the MySQL Connector for Java from the official MySQL Connector website [https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/].
 
 - Add the `.jar` file to your project library:
   - If using an IDE like IntelliJ IDEA or Eclipse, right-click on the project, go to **Libraries**, and add the `.jar` file.
