@@ -25,12 +25,16 @@
 #### Step 03: Installing Dependencies
 
 ##### 1. MySQL Connector
-- Download the MySQL Connector for Java from the [official MySQL website](https://dev.mysql.com/downloads/connector/j/).
+You can follow this youtube video to install MySQL Connector.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8aTpDfsYTNQ?si=zM0o0_rSLDyRtYjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Download the MySQL Connector for Java from the [official MySQL website]([https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)).
+
 - Add the `.jar` file to your project library:
   - If using an IDE like IntelliJ IDEA or Eclipse, right-click on the project, go to **Libraries**, and add the `.jar` file.
 
 ##### 2. JFoenix Library
-- Download the JFoenix library from [JFoenix GitHub releases](https://github.com/jfoenixadmin/JFoenix/releases).
+- Download the JFoenix library from [JFoenix9.0.10.jar](https://search.maven.org/remotecontent?filepath=com/jfoenix/jfoenix/9.0.10/jfoenix-9.0.10.jar).
 - Add the `.jar` file to your project library as done with the MySQL Connector.
 
 #### Step 04: Setting Up the Database
