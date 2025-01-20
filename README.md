@@ -33,6 +33,12 @@
 - Download the JFoenix library from [JFoenix GitHub releases](https://github.com/jfoenixadmin/JFoenix/releases).
 - Add the `.jar` file to your project library as done with the MySQL Connector.
 
+#### Step 04: Setting Up the Database
+1. Open phpMyAdmin on your local server.
+2. Click on **Import** in the phpMyAdmin interface.
+3. Select the `database.sql` file located in the root directory of the project.
+4. Click **Go** to execute the SQL script and create the necessary database and tables.
+
 ### Contribution Guidelines
 
 #### Step 01: Creating a Branch
@@ -55,7 +61,7 @@
 2. Test your changes locally.
 3. Add and commit your changes:
    ```bash
-   git add --all
+   git add .
    git commit -m "<YOUR_COMMIT_MESSAGE>"
    ```
    **Commit Message Guidelines:** Use concise and descriptive messages like `Added search functionality to Student Directory`.
