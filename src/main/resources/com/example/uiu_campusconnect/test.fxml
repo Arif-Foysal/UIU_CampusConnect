@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+    <!-- Header Section -->
+    <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10;">
+        <Label style="-fx-font-size: 24; -fx-font-weight: bold;" text="Messages" />
+        <Region HBox.hgrow="ALWAYS" />
+        <Button style="-fx-background-color: #3E9B82; -fx-text-fill: white;" text="+ New Chat" />
+        <Button style="-fx-background-color: transparent;" text="Report chat" />
+        <MenuButton text="..." />
+    </HBox>
+
+    <!-- Main Content -->
+    <SplitPane dividerPositions="0.3" VBox.vgrow="ALWAYS">
+        <!-- Left Sidebar -->
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <!-- Search Box -->
+            <TextField promptText="Find Messages" style="-fx-background-radius: 20;" />
+
+            <!-- Chat List -->
+            <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;" VBox.vgrow="ALWAYS">
+                <VBox spacing="10">
+                    <!-- Chat Items -->
+                    <HBox spacing="10" style="-fx-padding: 10; -fx-background-radius: 5;">
+                        <ImageView fitHeight="40" fitWidth="40">
+                            <image>
+                                <Image url="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-21%20at%207.48.25%E2%80%AFPM-HhHgJUsWhIpXK5PwitXN4CzaHOhivq.png" />
+                            </image>
+                        </ImageView>
+                        <VBox>
+                            <Label style="-fx-font-weight: bold;" text="Arif" />
+                            <Label style="-fx-text-fill: #666;" text="You:sure. • 11:39pm" />
+                        </VBox>
+                    </HBox>
+
+                    <HBox spacing="10" style="-fx-padding: 10; -fx-background-radius: 5;">
+                        <ImageView fitHeight="40" fitWidth="40">
+                            <image>
+                                <Image url="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-21%20at%207.48.25%E2%80%AFPM-HhHgJUsWhIpXK5PwitXN4CzaHOhivq.png" />
+                            </image>
+                        </ImageView>
+                        <VBox>
+                            <Label style="-fx-font-weight: bold;" text="nayem" />
+                            <Label style="-fx-text-fill: #666;" text="hi • 9:45am" />
+                        </VBox>
+                    </HBox>
+
+                    <HBox spacing="10" style="-fx-padding: 10; -fx-background-radius: 5;">
+                        <ImageView fitHeight="40" fitWidth="40">
+                            <image>
+                                <Image url="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-21%20at%207.48.25%E2%80%AFPM-HhHgJUsWhIpXK5PwitXN4CzaHOhivq.png" />
+                            </image>
+                        </ImageView>
+                        <VBox>
+                            <Label style="-fx-font-weight: bold;" text="Henna" />
+                            <Label style="-fx-text-fill: #666;" text="You:Thifaslkfjaslkjf • 11:33pm" />
+                        </VBox>
+                    </HBox>
+
+                    <HBox spacing="10" style="-fx-padding: 10; -fx-background-radius: 5;">
+                        <ImageView fitHeight="40" fitWidth="40">
+                            <image>
+                                <Image url="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-21%20at%207.48.25%E2%80%AFPM-HhHgJUsWhIpXK5PwitXN4CzaHOhivq.png" />
+                            </image>
+                        </ImageView>
+                        <VBox>
+                            <Label style="-fx-font-weight: bold;" text="Jack" />
+                            <Label style="-fx-text-fill: #666;" text="lkjhfkjshda • 12:43pm" />
+                        </VBox>
+                    </HBox>
+                </VBox>
+            </ScrollPane>
+        </VBox>
+
+        <!-- Right Chat Area -->
+        <VBox>
+            <!-- Chat Messages -->
+            <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;" VBox.vgrow="ALWAYS">
+                <VBox spacing="10" style="-fx-padding: 10;">
+                    <HBox alignment="CENTER_LEFT">
+                        <Label style="-fx-background-color: #f0f0f0;                                -fx-padding: 10; -fx-background-radius: 15;" text="hi" />
+                    </HBox>
+                    <HBox alignment="CENTER_RIGHT">
+                        <Label style="-fx-background-color: #4169E1; -fx-text-fill: white;                                -fx-padding: 10; -fx-background-radius: 15;" text="i want to book your place" />
+                    </HBox>
+                    <HBox alignment="CENTER_RIGHT">
+                        <Label style="-fx-background-color: #4169E1; -fx-text-fill: white;                                -fx-padding: 10; -fx-background-radius: 15;" text="sure." />
+                    </HBox>
+                </VBox>
+            </ScrollPane>
+
+            <!-- Message Input Area -->
+            <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10;">
+                <Button style="-fx-background-color: transparent;">
+                    <graphic>
+                        <ImageView fitHeight="20" fitWidth="20">
+                            <image>
+                                <Image url="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-21%20at%207.48.25%E2%80%AFPM-HhHgJUsWhIpXK5PwitXN4CzaHOhivq.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button style="-fx-background-color: transparent;">
+                    <graphic>
+                        <ImageView fitHeight="20" fitWidth="20">
+                            <image>
+                                <Image url="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-21%20at%207.48.25%E2%80%AFPM-HhHgJUsWhIpXK5PwitXN4CzaHOhivq.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <TextField promptText="Your message..." style="-fx-background-radius: 20;" HBox.hgrow="ALWAYS" />
+                <Button style="-fx-background-color: #4169E1;" text="Send" textFill="WHITE" />
+            </HBox>
+        </VBox>
+    </SplitPane>
+
+</VBox>

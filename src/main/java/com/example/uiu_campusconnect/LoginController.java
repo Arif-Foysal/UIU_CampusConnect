@@ -29,6 +29,8 @@ public class LoginController {
 
         try {
             if (UserDAO.authenticateUser(username, password)) {
+                System.out.println(username);
+                System.out.println(password);
                 errorLabel.setText("Login successful!");
                 // Redirect to hello-view.fxml
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Update.fxml"));

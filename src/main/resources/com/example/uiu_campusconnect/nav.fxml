@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="46.0" prefWidth="721.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1">
+    <VBox prefHeight="39.0" prefWidth="535.0">
+        <HBox minWidth="-Infinity" prefHeight="46.0" prefWidth="2696.0" style="-fx-background-color: #4B2C91; -fx-padding: 10;" VBox.vgrow="ALWAYS">
+            <Label style="-fx-font-size: 20; -fx-padding: 0 20 0 0;" text="UIU Campus Connect" textFill="WHITE">
+            <font>
+               <Font size="7.0" />
+            </font></Label>
+         <Pane prefHeight="200.0" prefWidth="200.0" />
+         <Accordion />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white;" text="Question Bank" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white;" text="Forum" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white;" text="Study Rooms" />
+         <Button style="-fx-background-color: transparent; -fx-text-fill: white;" text="Log In" />
+        </HBox>
+
+        <Region prefHeight="0.0" prefWidth="534.0" style="-fx-pref-height: 20;" />
+    </VBox>
+</AnchorPane>

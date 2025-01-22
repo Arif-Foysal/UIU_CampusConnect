@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.layout.Region?>
+
+<VBox xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <!-- Nav Bar -->
+    <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10; -fx-background-color: #f0f0f0;">
+        <Label style="-fx-font-size: 24; -fx-font-weight: bold;" text="Messages" />
+        <Region HBox.hgrow="ALWAYS" />
+        <Button style="-fx-background-color: #3E9B82; -fx-text-fill: white;" text="+ New Chat" />
+        <Button style="-fx-background-color: transparent;" text="Report chat" />
+        <MenuButton text="..." />
+    </HBox>
+
+    <!-- Content Area -->
+    <VBox fx:id="contentArea" VBox.vgrow="ALWAYS" />
+</VBox>
